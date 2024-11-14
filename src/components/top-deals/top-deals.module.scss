@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: var(--space-16);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 32px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  flex-direction: column;
+  row-gap: var(--space-24);
+}

@@ -1,0 +1,20 @@
+.root {
+  border-radius: 12px;
+  background: var(--background-white);
+  overflow: hidden;
+  border: 1px solid var(--border-default);
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 16px -4px rgba(51, 40, 36, 0.25);
+  }
+}
+.image {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.content {
+  padding: var(--space-16);
+  font-size: var(--text-large-font-size);
+  line-height: var(--text-large-line-height);
+}
