@@ -26,7 +26,7 @@
 
 .actions {
   display: flex;
-  gap: 8px;
+  column-gap: var(--space-16);
 }
 
 .heading {
